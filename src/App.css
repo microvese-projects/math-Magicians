@@ -57,3 +57,30 @@ input:first-child {
 .colored:hover {
   background-color: red;
 }
+
+.error,
+.loading-message,
+.quote-container {
+  padding: 50px;
+}
+
+.loading-message {
+  color: green;
+}
+
+.error {
+  color: coral;
+}
+
+.quote,
+.author {
+  padding: 10px;
+  font-size: 1.1rem;
+  line-height: 130%;
+  text-align: center;
+}
+
+.author {
+  font-style: italic;
+  font-weight: bold;
+}
