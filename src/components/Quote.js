@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 export default function Quote() {
-  const [error, setError] = useState(null);
+  const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState('');
 
@@ -19,8 +19,8 @@ export default function Quote() {
         });
         const json = await res.json();
         setData(json[0]);
-      } catch (err) {
-        setError(err);
+      } catch (error) {
+        setError(true);
       }
       setLoading(false);
     };
