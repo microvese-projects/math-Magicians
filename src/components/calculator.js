@@ -12,7 +12,6 @@ const Calculator = () => {
   });
 
   function handleClick(value) {
-    console.log(value);
     setState((prev) => {
       const newObj = calculate(prev, value);
       return newObj;
