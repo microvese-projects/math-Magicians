@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <>
+    <div className="home">
       <br />
       <h2>Welcome to our page!</h2>
       <br />
@@ -25,7 +25,7 @@ function Home() {
         Lorem Ipsum passages, and more recently with desktop publishing software
         like Aldus PageMaker including versions of Lorem Ipsum.
       </p>
-    </>
+    </div>
   );
 }
 
