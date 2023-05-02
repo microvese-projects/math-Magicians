@@ -97,7 +97,7 @@ To run the project:
     npm start
   ```
 
-### Usage <a name="run-tests"></a>
+### Tests <a name="run-tests"></a>
 Tests can be performed using the lighthouse extension on google chrome to get a report of the page performance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
