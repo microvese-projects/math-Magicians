@@ -33,6 +33,10 @@
 
 **Math Magicians** is a project that was created inline with the Microverse curriculumn. It is an app that allows the user to make some Math calculations. I used React in this project. 
 
+## Live Demo <a name="live-demo"></a>
+
+> You can interact with the project on this [link](https://math-magicians-jz5t.onrender.com/)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
