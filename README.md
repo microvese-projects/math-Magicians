@@ -153,6 +153,6 @@ I would like to thank Microverse for the outstanding collection of information t
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/microvese-projects/math-Magicians/blob/3d62abaa566f513bc91f659ef49a05a93f83f7cd/LICENSE.md) licensed.
+This project is [MIT](https://github.com/microvese-projects/math-Magicians/blob/e394407f94050cfc6587e883dcfe8a76076ac26e/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
