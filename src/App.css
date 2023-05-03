@@ -1,11 +1,24 @@
 .App {
   min-width: 300px;
+  min-height: 100vh;
   width: 90vw;
-  max-width: 500px;
+  max-width: 1000px;
 }
 
 #output {
   height: 100px;
+}
+
+#calculator,
+.home,
+.quote-container {
+  max-width: 750px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 input {
@@ -83,4 +96,35 @@ input:first-child {
 .author {
   font-style: italic;
   font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.navbar li:first-child {
+  margin-right: auto;
+  font-size: 1.3rem;
+}
+
+.navbar a {
+  border-right: 1px solid;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.navbar a.active {
+  color: red;
+}
+
+.home p,
+.quote-container p {
+  font-size: 1.3rem;
+  line-height: 120%;
 }
